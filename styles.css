@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft{
+    width: 50%;
+}
+
+.topright{ 
+    width: 50%;
+}
+
+.section1{
+   max-height: 100vh; 
+   color: #346b66;
+}
+
+.section1 h1{
+    color: #2c56ac;
+    font-size: 2rem;
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.readimg{
+    width: 289px;
+}
+
+.topright .bookimg{
+    width: 466px;
+}
+
+.section2{
+    padding: 73px;
+}
+
+.section2 h1{
+    font-size: 2.3rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid #2c56ac;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+   margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{ 
+    width: 23vw; 
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+} 
+
+.section3 table td{   
+    border-bottom: 2px solid black; 
+} 
+ 
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 73px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin:0 20px;
+}
+
+#navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#navigation ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#navigation ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+#navigation ul li a:hover {
+    color:#2c56ac;
+}
+
+/* Change background color on scroll (adjust values as needed) */
+#navigation {
+    background-color: #eee;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.font-size{
+    font-size: 20px;
+}
+
+.font-style{
+    font-family: 'Ubuntu', sans-serif; ;
+}
+
+.text-color{
+    color:#21499c;
+}
+
+.input2 { 
+	margin-top: 10; 
+} 
+
+.label1 { 
+	font-size: 18px; 
+	margin-top: 8px; 
+	margin-bottom: 8px; 
+	font-weight: bolder; 
+} 
+
+.contactMenu .input1 input { 
+	border-radius: 13px; 
+	padding: 6px; 
+} 
+
+.input2 input { 
+	border-color: rgb(252, 244, 244); 
+	width: 400px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.textarea-height-width{
+    height: 100px;
+    width: 100%;
+}
+
+.list-item {
+    line-height: 3;
+    color: #21499c;
+    list-style:none;
+  }
+
+  .contact-text {
+    font: 20px 'Ubuntu', sans-serif;
+    color: #000;
+  }
+  
+  .place {
+    margin-left: 10px;
+  }
+  
+  .phone {
+    margin-left: 10px;
+  }
+  
+  .gmail {
+    margin-left: 10px;
+  }
+  
+  .contact-text a {
+    color: #000;
+    text-decoration: none;
+    transition-duration: 0.2s;
+  }
+  
+  .contact-text a:hover {
+    color: #000;
+    text-decoration: none;
+  }
